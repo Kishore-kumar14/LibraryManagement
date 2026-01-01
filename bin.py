@@ -15,7 +15,7 @@ sorted_list = [1, 5, 10, 15, 20, 25]
 print(f"Index of 10 is: {binary_search(sorted_list, 10)}")
 # Student Registration Module
 def register_student(name):
-    print(f"Student {name} has been registered.")
+   print(f"Student {name} registered successfully [Branch A Update]")
 print("Update to check daily change check")
 print("check")
 # Login Feature
@@ -24,3 +24,4 @@ def login(username, password):
         print("Login successful")
     else:
         print("Login failed")
+print("This line is a mistake and should be deleted")
