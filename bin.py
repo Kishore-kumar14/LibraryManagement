@@ -18,3 +18,9 @@ def register_student(name):
     print(f"Student {name} has been registered.")
 print("Update to check daily change check")
 print("check")
+# Login Feature
+def login(username, password):
+    if username == "admin" and password == "secret":
+        print("Login successful")
+    else:
+        print("Login failed")
