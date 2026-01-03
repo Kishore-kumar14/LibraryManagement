@@ -1,0 +1,8 @@
+# Ignore log files
+*.log
+
+# Ignore temporary folder
+temp/
+
+# Ignore Python cache (good practice)
+__pycache__/
