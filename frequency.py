@@ -24,6 +24,6 @@ def binary_search(arr, target):
         else:
             high = mid - 1
     return -1
-
 sorted_list = [1, 5, 10, 15, 20, 25]
 print(f"Index of 10 is: {binary_search(sorted_list, 10)}")
+print("completed")
